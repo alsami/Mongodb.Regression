@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DE328F9E-72EB-46B7-A507-892FE4F7B965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDb.Regression", "src\MongoDb.Regression\MongoDb.Regression.csproj", "{8D3480B5-D769-4FE1-B820-B73B40B96A8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{0E458E61-1F56-4074-A1F1-E473E99AC658}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D3480B5-D769-4FE1-B820-B73B40B96A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3480B5-D769-4FE1-B820-B73B40B96A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3480B5-D769-4FE1-B820-B73B40B96A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3480B5-D769-4FE1-B820-B73B40B96A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D3480B5-D769-4FE1-B820-B73B40B96A8B} = {DE328F9E-72EB-46B7-A507-892FE4F7B965}
+	EndGlobalSection
+EndGlobal
